@@ -23,11 +23,14 @@ function Navbar(){
         </div>
         <div className="container">
               
-        <div className="logo" >
-            <img src={logo} alt="DJS NOVA logo" />
+          <div className="logo" >
+              <img src={logo} alt="DJS NOVA logo" />
           </div>
-              <h2 className='subtitle'>The official Astronomy and Astrophysics club of DJSCE</h2>
-          </div>
+              <h1 className='subtitle'>The official Astronomy and Astrophysics club of DJSCE</h1>
+        </div>
+        <div className="hash">
+          <h3>#ChaosInCalm</h3>
+        </div>
       </div>
       <div className="mission">
         <div className='title'>OUR MISSION</div>

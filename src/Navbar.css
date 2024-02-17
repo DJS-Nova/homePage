@@ -1,6 +1,7 @@
 #root{
   max-width: 100%;
   padding: 1rem;
+  padding-top: 0;
   
 }
 
@@ -48,6 +49,7 @@ ul li:hover p{
   cursor: pointer;
   transform: scale(1.2);
   transition: ease-in 0.3s;
+  text-shadow: 4px 4px 15px #ffffff;
 }
 
 .pic{
@@ -74,10 +76,17 @@ ul li p{
 .container{
   display: grid;
   place-content: center;
+  place-items: center;
   
-  margin-left: 55vh;
+  margin-left: 40vh;
   margin-top: 0;
   
+}
+
+.container h1{
+  padding-top: 30px;
+  text-shadow: 4px 4px 15px #ffffff;
+
 }
 
 
@@ -91,15 +100,15 @@ font-size: 29px;
 
 }
 
-.logo img{
-  display: flex;
-  flex-wrap: wrap;
-  justify-items: center;
-  align-items: center;
-  margin-left: 30vh;
-  scale: 1.3;  
- 
+.hash h3{
+  font-size: 30px;
+  position: fixed;
+  text-shadow: 4px 4px 15px #ffffff;
+  margin-top: 20px;
 }
+
+
+
 
 .title{
   margin-top: 20px;
