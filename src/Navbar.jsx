@@ -9,7 +9,7 @@ import eventGallery from './images/eventicon-removebg-preview.png'
 function Navbar(){
   
   
-  return(
+  return( 
     <>
 
       <div className="main">
@@ -21,20 +21,19 @@ function Navbar(){
             <li><img className='eventlogo pic' src={eventGallery} alt="" /><p>Event Gallery</p></li>
           </ul>
         </div>
+        
         <div className="container">
-              
+          <div className="hash">
+            <h3>#ChaosInCalm</h3>
+          </div>
           <div className="logo" >
               <img src={logo} alt="DJS NOVA logo" />
           </div>
               <h1 className='subtitle'>The official Astronomy and Astrophysics club of DJSCE</h1>
         </div>
-        <div className="hash">
-          <h3>#ChaosInCalm</h3>
-        </div>
+        
       </div>
-      <div className="mission">
-        <div className='title'>OUR MISSION</div>
-      </div>
+      
 
     </>
   )

@@ -18,12 +18,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} 
 
 body {
   margin: 0;
-  display: flex;
-  min-width: 320px;
+  /* display: flex; */
   min-height: 100vh;
   background-image: url('./images/beautiful-constellations-with-blue-sky.jpg'); 
   background-size:cover; 
