@@ -15,7 +15,7 @@ function Navbar(){
       <div id= 'homeP' className="main">
         <div className="navbar">
           <ul>
-            <li><a href="#homeP"><img className='homelogo pic' src={home} alt="" /><p>Home</p></a></li>
+            <li><img className='homelogo pic' src={home} alt="" /><p>Home</p></li>
             <li><img className='teamlogo pic' src={team} alt="" /><p>Team</p></li>
             <li><img className='contactlogo pic' src={contact} alt="" /><p>Contact Us</p></li>
             <li><img className='eventlogo pic' src={eventGallery} alt="" /><p>Event Gallery</p></li>

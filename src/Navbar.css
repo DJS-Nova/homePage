@@ -52,7 +52,7 @@ ul{
 }
 
 
-ul li:hover a p{
+ul li:hover p{
   cursor: pointer;
   transform: scale(1.2);
   transition: ease-in 0.3s;
