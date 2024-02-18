@@ -11,8 +11,6 @@
     justify-content: center;
     align-items: center;
     margin-left: 0;
-
-
 }
 
 .title h2{
@@ -24,13 +22,24 @@
     height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 
-
+.mission p, .vision p{
+    padding: 20px 20px;
+    font-size: 20px;
+}
 
 .mission, .vision{
-    width: 40vb;
+    width: 60vb;
     border-radius: 10px;
     border: 3px solid white;
+    /* box-shadow: inset 10px 10px 20px rgb(0, 187, 255); */
+    box-shadow: 10px 10px 40px rgb(0, 187, 255);
+}
+
+.mission h2, .vision h2{
+    text-align: center;
+    text-shadow: 4px 4px 15px rgb(0, 195, 255);
+    font-size: 30px;
 }

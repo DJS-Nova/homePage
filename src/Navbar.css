@@ -1,13 +1,13 @@
 #root{
-  max-width: 100%;
-  padding: 1rem;
-  padding-top: 0;
+  width: 100%;
   
 }
 
 .hash{
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
-  top: -32vh;
+  top: -28vh;
   left: 50vb;
 }
 
@@ -36,14 +36,14 @@
 
 
 .navbar:hover{
-  box-shadow: inset 7px 0 25px rgb(0, 195, 255);
+  box-shadow: inset 15px 0 30px rgb(0, 195, 255);
   width: 250px;
   
   /* padding-left:20px; */
 } 
 
 .navbar:hover ul li p{
-display:inline;
+  display:inline;
 }
 
 
@@ -52,7 +52,7 @@ ul{
 }
 
 
-ul li:hover p{
+ul li:hover a p{
   cursor: pointer;
   transform: scale(1.2);
   transition: ease-in 0.3s;
@@ -68,7 +68,6 @@ ul li p{
   font-size: 20px;
   list-style-type:none;
   padding-top: 0;
-
   display: none;
   white-space: nowrap;
   font-weight: 400;
@@ -82,11 +81,10 @@ ul li p{
 }
 
 .container{
-  
+  margin-bottom: 10vh;
   display: grid;
   place-content: center;
   place-items: center;
-
   width: 100%;
   margin-top: 0;
   
@@ -95,6 +93,7 @@ ul li p{
 .container h1{
   padding-top: 30px;
   text-shadow: 4px 4px 15px #ffffff;
+  font-size: 35px;
 
 }
 

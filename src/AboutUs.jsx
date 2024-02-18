@@ -14,7 +14,7 @@ export default function AboutUs() {
 
             <div className="content2">
                 <div className="mission">
-                    <h2>Our Mission</h2>
+                    <h2>Our Mission:</h2>
                     <p>
                     We aim to promote and foster curiosity among students to gain knowledge, skills and understanding in the study of astronomy. We seek to ignite a sense of passion within the community through a series of seminars, workshops and other events spread throughout the year.
                     </p>
