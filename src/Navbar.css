@@ -1,7 +1,7 @@
-#root{
+/* #root{
   width: 100%;
   
-}
+} */
 
 .hash{
   display: flex;
@@ -80,7 +80,7 @@ ul li p{
   width: 100%;
 }
 
-.container{
+/* .container{
   margin-bottom: 10vh;
   display: grid;
   place-content: center;
@@ -88,14 +88,14 @@ ul li p{
   width: 100%;
   margin-top: 0;
   
-}
+} */
 
-.container h1{
+/* .container h1{
   padding-top: 30px;
   text-shadow: 4px 4px 15px #ffffff;
   font-size: 35px;
 
-}
+} */
 
 
 .content{
@@ -103,17 +103,17 @@ ul li p{
   margin: 0;
 }
 
-.subtitle{
+/* .subtitle{
 font-size: 29px;
 
-}
+} */
 
-.hash h3{
+/* .hash h3{
   font-size: 30px;
   position: fixed;
   text-shadow: 4px 4px 15px #ffffff;
   margin-top: 20px;
-}
+} */
 
 ul li{
   display: flex;

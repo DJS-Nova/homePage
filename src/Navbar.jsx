@@ -10,8 +10,6 @@ function Navbar(){
   
   
   return( 
-    <>
-
       <div id= 'homeP' className="main">
         <div className="navbar">
           <ul>
@@ -20,22 +18,9 @@ function Navbar(){
             <li><img className='contactlogo pic' src={contact} alt="" /><p>Contact Us</p></li>
             <li><img className='eventlogo pic' src={eventGallery} alt="" /><p>Event Gallery</p></li>
           </ul>
-        </div>
-        
-        <div className="container">
-          <div className="hash">
-            <h3>#ChaosInCalm</h3>
-          </div>
-          <div className="logo" >
-              <img src={logo} alt="DJS NOVA logo" />
-          </div>
-              <h1 className='subtitle'>The official Astronomy and Astrophysics club of DJSCE</h1>
-        </div>
-        
+        </div>       
       </div>
-      
 
-    </>
   )
 }
 

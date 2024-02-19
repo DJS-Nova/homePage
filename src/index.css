@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 
 
 :root {
@@ -18,6 +14,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width:100dvw;
 } 
 
 body {
@@ -25,10 +22,13 @@ body {
   /* display: flex; */
   min-height: 100vh;
   background-image: url('./images/beautiful-constellations-with-blue-sky.jpg'); 
-  background-size:cover; 
-
+  background-size:100%;
+  /* width:100%; */
+  /* background-repeat: no-repeat; */
+  
 }
 
 
-
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
